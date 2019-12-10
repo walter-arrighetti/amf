@@ -84,12 +84,10 @@
         <aces:outputTransform>
             <aces:referenceRenderingTransform>
                 <aces:description>ACES v1.0.3 RRT</aces:description>
-                <aces:hash algorithm="sha256">c81af4fb4a22ee0353308e4582708951df4682bf73f838c24bf44e585fc3bb61</aces:hash>
                 <aces:transformId>RRT.a1.0.3</aces:transformId>
             </aces:referenceRenderingTransform>
             <aces:outputDeviceTransform>
                 <aces:description>P3D60 ODT</aces:description>
-                <aces:hash algorithm="sha1">efd279a82c2d52ee8c49dc0793499dc86bb1a4a3fa0dfb420d59c2814c55aea6</aces:hash>
                 <aces:transformId>ODT.Academy.P3D60_48nits.a1.0.3</aces:transformId>
             </aces:outputDeviceTransform>
         </aces:outputTransform>
@@ -98,7 +96,7 @@
         <aces:pipelineInfo>
             <aces:description>Example Movie Final DI</aces:description>
             <aces:dateTime>
-                <aces:creationDateTime>2019-09-19T13:20:00</aces:creationDateTime>
+                <aces:creationDateTime>2019-09-19T13:20:00-0800</aces:creationDateTime>
                 <aces:modificationDateTime>2019-11-27T13:20:00Z</aces:modificationDateTime>
             </aces:dateTime>
             <aces:uuid>urn:uuid:d89931e8-bd46-4b70-b8e9-3068cf8b91a3</aces:uuid>
@@ -139,14 +137,13 @@
                 <aces:lookTransformWorkingSpace>
                     <aces:toLookTransformWorkingSpace>
                         <aces:description>Use ACEScc as the working space for this LMT</aces:description>
-                        <aces:hash algorithm="sha256">07eb8b020fe8fc10c8c4b983cc37798324c7eee1319f07dd0028fca96f904a7f</aces:hash>
                         <aces:transformId>ACEScsc.ACES_to_ACEScc.a1.0.3</aces:transformId>
                     </aces:toLookTransformWorkingSpace>
                     <aces:fromLookTransformWorkingSpace>
-                        <aces:hash algorithm="sha256">ef461a45beded2c5204371f755ca2558e61743f288f3ccd719ce1de23ebcf9cb</aces:hash>
                         <aces:transformId>ACEScsc.ACEScc_to_ACES.a1.0.3</aces:transformId>
                     </aces:fromLookTransformWorkingSpace>
                 </aces:lookTransformWorkingSpace>
+                <aces:hash algorithm="sha256">ef461a45beded2c5204371f755ca2558e61743f288f3ccd719ce1de23ebcf9cb</aces:hash>
                 <aces:transformId>LMT.AcmeDI.a1.v5</aces:transformId>
             </aces:lookFile>
         </aces:lookTransforms>
